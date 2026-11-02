@@ -1,0 +1,15 @@
+# Chaves e configurações secretas
+.env
+.env.*
+!.env.example
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+
+# Dados locais dos usuários
+dados/*.json
